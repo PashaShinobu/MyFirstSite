@@ -28,10 +28,18 @@
     justify-content: space-between;
     text-align: center;
 }
+
 .textnav li a{
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
+    color: rgb(70, 67, 67);
+    
+}
+
+.textnav li a:hover{
+    color: black;
+    border-bottom: 4px solid red;
 }
 
 .line{
