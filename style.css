@@ -27,18 +27,21 @@
     list-style-type: none;
     justify-content: space-between;
     text-align: center;
+    font-size: 18px;
+    font-family: bord;
+    font-weight: 300;
 }
 
 .textnav li a{
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
-    color: rgb(70, 67, 67);
+    color: rgb(0, 0, 0)
     
 }
 
 .textnav li a:hover{
-    color: black;
+    color: rgb(199, 71, 71);
     border-bottom: 4px solid red;
 }
 
@@ -100,23 +103,28 @@
     font-size: 34px;
     list-style-type: none;
     padding-top: 120px;
+    font-weight: 900;
 }
 .bord_2 {
     font-family: bord;
     font-size: 18px;
     list-style-type: none;
+    font-weight: 600;
+    font-weight: 400;
 }
 
 .bord_3{
     font-family: bord;
     font-size: 18px;
     list-style-type: none;
+    font-weight: 400;
 }
 
 .bord_4{
     font-family: bord;
     font-size: 18px;
     list-style-type: none;
+    font-weight: 400;
 }
 
 .backr{
@@ -138,7 +146,7 @@
     text-align: center;
     margin: 0 auto;
     line-height: 1px;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .skills{
@@ -146,6 +154,7 @@
     font-size: 34px;
     line-height: 42px;
     font-family: short_inf;
+    font-weight: 900;
 
 }
 
@@ -155,6 +164,7 @@
     height: 24px;
     font-size: 18px;
     line-height: 21px;
+    font-weight: 400;
 }
 
 .skills_icon{
@@ -183,6 +193,22 @@
 .icon_4 img{
     width: 81px;
     height: 81px; 
+}
+
+.text_1{
+    font-weight: 500;
+}
+
+.text_2{
+    font-weight: 500;
+}
+
+.text_3{
+    font-weight: 500;
+}
+
+.text_4{
+    font-weight: 500;
 }
 
 .star_1{
@@ -232,33 +258,34 @@
 .port_1{
     width: 936px;
     height: 510px;
+    border: 1px solid black;
 }
 
 .port_2{
     width: 936px;
     height: 510px;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 .port_3{
     width: 936px;
     height: 510px;
     margin: 0 auto;
-    border: 10 px solid #00a8e1;
+    border: 1px solid black;
 }
 
 .port_txt_1{
     font-size: 18px;
     line-height: 21px;
     font-family: bord;
-    font-weight: 400;
-    font-family: bord;
+    font-weight: 500;
 }
 
 .port_txt_2{
     font-size: 18px;
     line-height: 21px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: bord;
 }
 
@@ -266,7 +293,7 @@
     font-size: 18px;
     line-height: 21px;
     padding-bottom: 90px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: bord;
 }
 
@@ -303,6 +330,10 @@
     margin: 0 auto;
 }
 
+.bt_war a{
+    color: blueviolet;
+}
+
 .bt_war:hover{
     background-color: rgb(199, 71, 71);
 }
@@ -312,7 +343,23 @@
     margin: 0 auto;
 }
 
+.ds_bt a{
+    text-decoration: none;
+}
+
 .grop{
     text-align: center;
     margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.last_bt{
+    margin: 0 auto;
+    text-align: center;
+    width: 280px;
+}
+
+.dis_ds{
+    font-family: bord;
+    font-size: 400;
 }
